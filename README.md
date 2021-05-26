@@ -1,4 +1,4 @@
-# Compare-two-CSV  (WIP)
+# Compare-two-CSV / PowerShell (WIP)
 
 Okay so, three things:
 
@@ -6,7 +6,7 @@ Okay so, three things:
 2. Im *not* a professional, so the code is not perfect
 3. The Script (var, methods etc.) are in german because i am so yeah....
 
-About the Script:
+About the PowerShell-Script:
 ------------------
 We (Me & three friends) had to create this for a project work at our school. 
 
@@ -25,3 +25,16 @@ When calling the Script you can feed it with two CSV-Files (See "Run Script"), w
 THIS MEANS:  
 * This script is only to find redundandt adresses in a second CSV
 * If CSV2 contains Addresses which are NOT in CSV1, idk the scipt might ignore them or throw a error
+
+*Run Script:* 
+Following examples show how to run the script:
+
+NOTE: 
+* Leave "-Datei1" & "-Datei2" as they are because these are the var names in wich the CSV-Path is stored!
+* "-ResultatCSV <name>" Is not mandatory. If you want you can rename the output CSV, otherwise it will be called "Compare-Output"
+* Again check that the CSV rows match the Scripts var's
+  
+Here the Lines:  
+* .\Compare-two-CSV.ps1 -Datei1 <CSV1-File-Name> -Datei2 <CSV2-File-Name>
+* .\Compare-two-CSV.ps1 -Datei1 <CSV1-File-Name> -Datei2 <CSV2-File-Name> -ResultatCSV <Name>
+* .\Compare-two-CSV.ps1 - Datei1 "C:\Path\to\your\File1.csv" - Datei2 "C:\Path\to\your\File2.csv" -ResultatCSV "C:\Path\to\store\Output.csv"
