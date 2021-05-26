@@ -21,16 +21,12 @@ SHORT:
 * Everything is coded and (beautifully) commented in german (If you reeeaaalllyyy need a english version I can make you one)
 
 LONG:  
-When calling the Script you can feed it with two CSV-Files (See "Run Script"), which will then be compared. We had two CSV's which both contained 9999 Adresses. In CSV1 all addresses were unique, on CSV2 *not*. The Script then compared the two Files and generates a CSV3 were all redundant addresses from CSV2 are listed (based on the CSV1).
+When calling the Script you can feed it with two CSV-Files (See "Run Script"), which will then be compared. We had two CSV's which both contained 9999 Adresses. In CSV1 all addresses were unique, on CSV2 *not*. The Script then compares the two Files and generates a CSV3 were all redundant addresses from CSV2 are listed (based on the CSV1).
 It does it by first comparing the First- and Familyname. If these Match, it compares the addresses etc., if these all match, the row gets stored in a Array.
-When finished all the comparing, it recompared the array with the array itself but we added a counter. 
+When finished all the comparing, it recompares the array with itself but we added a counter. 
 The first time a match happens, it checks if the counter is 0: If YES, the counter gets incremented by 1. If NO (counter is allready incremented), the row gets written in a new Array. This helps us eliminating all rows that only match once (since we only want the redundant data). 
-At last this new array get exported with the parameter "unique" in to a new CSV-File.
+At last this new array gets exported with the parameter "unique" in to a new CSV-File.
 Magic done :)
-
-THIS MEANS:  
-* This script is only to find redundandt adresses in a second CSV
-* If CSV2 contains Addresses which are NOT in CSV1, idk the scipt might ignore them or throw a error
 
 *Run Script:* 
 Following examples show how to run the script:
