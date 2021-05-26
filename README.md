@@ -35,6 +35,6 @@ NOTE:
 * Again check that the CSV rows match the Scripts var's
   
 Here the Lines:  
-* .\Compare-two-CSV.ps1 -Datei1 <CSV1-File-Name> -Datei2 <CSV2-File-Name>
-* .\Compare-two-CSV.ps1 -Datei1 <CSV1-File-Name> -Datei2 <CSV2-File-Name> -ResultatCSV <Name>
-* .\Compare-two-CSV.ps1 - Datei1 "C:\Path\to\your\File1.csv" - Datei2 "C:\Path\to\your\File2.csv" -ResultatCSV "C:\Path\to\store\Output.csv"
+* .\Compare-two-CSV.ps1 -Datei1 'CSV1-File-Name' -Datei2 'CSV2-File-Name'
+* .\Compare-two-CSV.ps1 -Datei1 'CSV1-File-Name' -Datei2 'CSV2-File-Name' -ResultatCSV 'Name'
+* .\Compare-two-CSV.ps1 - Datei1 'C:\Path\to\your\File1.csv' - Datei2 'C:\Path\to\your\File2.csv' -ResultatCSV 'C:\Path\to\store\Output.csv'
