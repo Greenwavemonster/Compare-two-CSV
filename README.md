@@ -15,7 +15,7 @@ We (me & three friends) had to create this for a project work at our school.
 SHORT:
 * When calling the script it has to be fed w/ two CSV-Files (See "Run Script")
 * The script is designed to compare address lists
-* The script will compare CSV2 against CSV1 and write all the REDUNDANT adresses into CSV3
+* The script will compare CSV2 against CSV1 and write all the REDUNDANT adresses found in CSV2 into CSV3
 * If CSV2 contains Addresses which are NOT in CSV1, idk the script will probably ignore them or throw a error
 * *IMPORTANT*: You have to either rename all the var's in the Script to match your CSV's or the other way around (They have to be in the correct order to compare them!)
 * Everything is coded and (beautifully) commented in german (If you reeeaaalllyyy need a english version I can make you one)
