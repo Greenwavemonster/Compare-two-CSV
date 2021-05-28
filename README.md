@@ -8,7 +8,7 @@ Okay so, three things:
 
 About the PowerShell-Script:
 ------------------
-We (me & three friends) had to create this for a project work at our school. 
+We (me & three friends) had to create this for a project at our school. 
 
 *Functionality:*  
 
